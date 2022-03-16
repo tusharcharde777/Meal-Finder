@@ -29,18 +29,7 @@ const Meal = () => {
             value={search}
             onKeyPress={searchMeal}
           />
-          {/* <button className="search-button">search</button>
-          <button className="shuffle-button">shuffle</button> */}
         </div>
-        <div className="result-heading">
-          {/* {Mymeal.data.meals == null ? (
-          <h4>Not Found</h4>
-        ) : (
-          //<h4>Search result for {Mymeal.data.strMeal}</h4>
-          <h4>searched</h4>
-        )} */}
-        </div>
-        ;
         <div className="container">
           {Mymeal == null ? (
             <div></div>

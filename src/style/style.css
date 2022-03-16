@@ -41,26 +41,9 @@ body {
   height: 40px;
   border: none;
   outline: none;
-  /* border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px; */
   padding: 0.3rem 1rem;
   border-radius: 5px;
 }
-
-/* .search-button {
-  padding: 13px;
-  margin-right: 10px;
-  border: none;
-  outline: none;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-.shuffle-button{
-  padding: 13px;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-} */
 
 .result-heading {
   text-align: center;
