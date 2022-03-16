@@ -6,7 +6,7 @@ const Mealitem = (getMeal) => {
         <div className="image">
           <img src={getMeal.data.strMealThumb} alt={getMeal.data.strMeal} />
           <h2>{getMeal.data.strMeal} </h2>         
-      </div>
+        </div>
       <div id="info">
         <div className="food-name">
           <h2>{getMeal.data.strMeal} </h2>
@@ -29,7 +29,7 @@ const Mealitem = (getMeal) => {
         <div className="measure">{getMeal.data.strMeasure}</div>
         <div className="tags">{getMeal.data.strTags}</div>
         <div className="youtube">{getMeal.data.strYoutube}</div>
-    </div>
+      </div>
     </div>
   );
 };
